@@ -1,8 +1,9 @@
 // alert("Hello World!")
 
 let firstNum = prompt("Please enter first number.");
-let secNum = prompt("Please enter second number.");
 let operIn = prompt("Please enter operator");
+let secNum = prompt("Please enter second number.");
+
 
 
 calculator = (number1, number2, operator) => {
@@ -25,4 +26,4 @@ calculator = (number1, number2, operator) => {
     return result;  
 };
 
-console.log(calculator(firstNum, secNum, operIn));
+alert("The result is " + calculator(firstNum, secNum, operIn));
